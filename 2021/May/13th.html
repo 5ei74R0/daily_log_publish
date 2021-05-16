@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>13th - Daily Log</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="just a tiny diary written about my daily activities like the classes in Univ.; reading papers, articles, or books">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">TOP</a></li><li class="chapter-item expanded "><a href="../../2021/top.html">top 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../2021/April/top.html">April</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../2021/April/27th.html">27th</a></li><li class="chapter-item "><a href="../../2021/April/28th.html">28th</a></li><li class="chapter-item "><a href="../../2021/April/29th.html">29th</a></li><li class="chapter-item "><a href="../../2021/April/30th.html">30th</a></li></ol></li><li class="chapter-item expanded "><a href="../../2021/May/top.html">May</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../2021/May/1st.html">1st</a></li><li class="chapter-item "><a href="../../2021/May/2nd.html">2nd</a></li><li class="chapter-item "><a href="../../2021/May/3rd.html">3rd</a></li><li class="chapter-item "><a href="../../2021/May/4th.html">4th</a></li><li class="chapter-item "><a href="../../2021/May/5th.html">5th</a></li><li class="chapter-item "><a href="../../2021/May/6th.html">6th</a></li><li class="chapter-item "><a href="../../2021/May/7th.html">7th</a></li><li class="chapter-item "><a href="../../2021/May/8th.html">8th</a></li><li class="chapter-item "><a href="../../2021/May/9th.html">9th</a></li><li class="chapter-item "><a href="../../2021/May/10th.html">10th</a></li><li class="chapter-item "><a href="../../2021/May/11th.html">11th</a></li><li class="chapter-item "><a href="../../2021/May/12th.html">12th</a></li><li class="chapter-item expanded "><a href="../../2021/May/13th.html" class="active">13th</a></li><li class="chapter-item "><a href="../../2021/May/14th.html">14th</a></li><li class="chapter-item "><a href="../../2021/May/15th.html">15th</a></li><li class="chapter-item "><a href="../../2021/May/16th.html">16th</a></li><li class="chapter-item "><a href="../../2021/May/17th.html">17th</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Daily Log</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        <a href="https://github.com/OtsuKotsu/daily_log" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#2021513" id="2021513">2021/5/13</a></h1>
+<table><thead><tr><th align="left">←</th><th align="right">→</th></tr></thead><tbody>
+<tr><td align="left">go to the <a href="./12th.html">previous page</a></td><td align="right">go to the <a href="./14th.html">next page</a></td></tr>
+</tbody></table>
+<h2><a class="header" href="#univ" id="univ">Univ.</a></h2>
+<h3><a class="header" href="#courses" id="courses">courses</a></h3>
+<ul>
+<li>
+<p><strong>Computer Vision, CG</strong></p>
+<ul>
+<li>
+<p><strong>raster conversion</strong></p>
+</li>
+<li>
+<p><em>Bresenham’s  Line Algorithm</em></p>
+<ul>
+<li>DDA (Digital Differential Analyzer)</li>
+</ul>
+<p>code1 : simple (use floating point)</p>
+<pre><pre class="playpen"><code class="language-rust editable">// Written in Rust
+<span class="boring">struct Disp {
+</span><span class="boring">    table: Vec&lt;Vec&lt;bool&gt;&gt;,
+</span><span class="boring">    h: usize,
+</span><span class="boring">    w: usize,
+</span><span class="boring">}
+</span><span class="boring">
+</span><span class="boring">impl Disp {
+</span><span class="boring">    pub fn new(height: usize, width: usize) -&gt; Disp {
+</span><span class="boring">        Disp {
+</span><span class="boring">            table: vec![vec![false; width]; height],
+</span><span class="boring">            h: height,
+</span><span class="boring">            w: width,
+</span><span class="boring">        }
+</span><span class="boring">    }
+</span><span class="boring">    
+</span><span class="boring">    fn print(&amp;self) {
+</span><span class="boring">        for _i in 0..self.w*2 + 1 {
+</span><span class="boring">            print!(&quot;-&quot;);
+</span><span class="boring">        }
+</span><span class="boring">        print!(&quot;\n&quot;);
+</span><span class="boring">
+</span><span class="boring">        for i in 0..self.h {
+</span><span class="boring">            print!(&quot;|&quot;);
+</span><span class="boring">            for j in 0..self.w {
+</span><span class="boring">                print!(&quot;{} &quot;, if self.table[i][j] {'x'} else {' '});
+</span><span class="boring">            }
+</span><span class="boring">            print!(&quot;\n&quot;);
+</span><span class="boring">        }
+</span><span class="boring">
+</span><span class="boring">        for _i in 0..self.w*2 + 1 {
+</span><span class="boring">            print!(&quot;-&quot;);
+</span><span class="boring">        }
+</span><span class="boring">        print!(&quot;\n&quot;);
+</span><span class="boring">    }
+</span><span class="boring">
+</span><span class="boring">    fn coloring(&amp; mut self, x: i32, y: i32) {
+</span><span class="boring">        if 0 &lt;= x &amp;&amp; x &lt; self.h as i32 &amp;&amp; 0 &lt;= y &amp;&amp; y &lt; self.w as i32 {
+</span><span class="boring">            self.table[x as usize][y as usize] |= true;
+</span><span class="boring">        }
+</span><span class="boring">    }
+</span><span class="boring">}
+</span><span class="boring">impl Disp {
+</span>    // draw line (x1, y1) -&gt; (x2, y2)
+    pub fn bresenham(&amp; mut self, start: (i32, i32), end: (i32, i32)) {
+        let (x1, y1) = start;
+        let (x2, y2) = end;
+        let mut x = x1;
+        let mut y = y1;
+        let dx = x2-x1;
+        let dy = y2-y1;
+        let d = dy as f64 / dx as f64;
+        let mut e = d;
+        for _i in 0..dx {
+            self.coloring(x, y);
+            while e &gt;= 1.0/2.0 {
+                y += 1;
+                e -= 1.0;
+            }
+            x += 1;
+            e += d;
+        }
+        self.coloring(x, y);
+    }
+<span class="boring">}
+</span><span class="boring">
+</span><span class="boring">fn main() {
+</span><span class="boring">    let mut disp = Disp::new(15, 20);
+</span><span class="boring">    disp.bresenham((0, 10), (15, 20));
+</span><span class="boring">    disp.bresenham((0, 0), (10, 20));
+</span><span class="boring">    disp.print();
+</span><span class="boring">}
+</span></code></pre></pre>
+<p>code2 : improved (use only integer)</p>
+<pre><pre class="playpen"><code class="language-rust editable">// Written in Rust
+<span class="boring">struct Disp {
+</span><span class="boring">    table: Vec&lt;Vec&lt;bool&gt;&gt;,
+</span><span class="boring">    h: usize,
+</span><span class="boring">    w: usize,
+</span><span class="boring">}
+</span><span class="boring">
+</span><span class="boring">impl Disp {
+</span><span class="boring">    pub fn new(height: usize, width: usize) -&gt; Disp {
+</span><span class="boring">        Disp {
+</span><span class="boring">            table: vec![vec![false; width]; height],
+</span><span class="boring">            h: height,
+</span><span class="boring">            w: width,
+</span><span class="boring">        }
+</span><span class="boring">    }
+</span><span class="boring">    
+</span><span class="boring">    fn print(&amp;self) {
+</span><span class="boring">        for _i in 0..self.w*2 + 1 {
+</span><span class="boring">            print!(&quot;-&quot;);
+</span><span class="boring">        }
+</span><span class="boring">        print!(&quot;\n&quot;);
+</span><span class="boring">
+</span><span class="boring">        for i in 0..self.h {
+</span><span class="boring">            print!(&quot;|&quot;);
+</span><span class="boring">            for j in 0..self.w {
+</span><span class="boring">                print!(&quot;{} &quot;, if self.table[i][j] {'x'} else {' '});
+</span><span class="boring">            }
+</span><span class="boring">            print!(&quot;\n&quot;);
+</span><span class="boring">        }
+</span><span class="boring">
+</span><span class="boring">        for _i in 0..self.w*2 + 1 {
+</span><span class="boring">            print!(&quot;-&quot;);
+</span><span class="boring">        }
+</span><span class="boring">        print!(&quot;\n&quot;);
+</span><span class="boring">    }
+</span><span class="boring">
+</span><span class="boring">    fn coloring(&amp; mut self, x: i32, y: i32) {
+</span><span class="boring">        if 0 &lt;= x &amp;&amp; x &lt; self.h as i32 &amp;&amp; 0 &lt;= y &amp;&amp; y &lt; self.w as i32 {
+</span><span class="boring">            self.table[x as usize][y as usize] |= true;
+</span><span class="boring">        }
+</span><span class="boring">    }
+</span><span class="boring">}
+</span><span class="boring">impl Disp {
+</span>    // draw line (x1, y1) -&gt; (x2, y2)
+    pub fn bresenham(&amp; mut self, start: (i32, i32), end: (i32, i32)) {
+        let (x1, y1) = start;
+        let (x2, y2) = end;
+        let mut x = x1;
+        let mut y = y1;
+        let dx = x2-x1;
+        let dy = y2-y1;
+        let mut e = 2 * dy - dx;
+        for _i in 0..dx {
+            self.coloring(x, y);
+            while e &gt;= 0 {
+                y += 1;
+                e -= 2 * dx;
+            }
+            x += 1;
+            e += 2 * dy;
+        }
+        self.coloring(x, y);
+    }
+<span class="boring">}
+</span><span class="boring">
+</span><span class="boring">fn main() {
+</span><span class="boring">    let mut disp = Disp::new(15, 20);
+</span><span class="boring">    disp.bresenham((0, 10), (15, 20));
+</span><span class="boring">    disp.bresenham((0, 0), (10, 20));
+</span><span class="boring">    disp.print();
+</span><span class="boring">}
+</span></code></pre></pre>
+</li>
+<li>
+<p><strong>polygon</strong></p>
+</li>
+<li>
+<p><em>Inside Test</em> (check whether a point is in a polygon)</p>
+<ul>
+<li>half-space method : sometimes make mistakes</li>
+<li>odd-even test method : sometimes make mistakes</li>
+<li>winding number method : nice</li>
+</ul>
+</li>
+<li>
+<p><em>polygon filling algorithms</em></p>
+<ul>
+<li>scan line algorithm</li>
+<li>seed fill algorithm</li>
+</ul>
+</li>
+<li>
+<p><em>aliasing</em></p>
+<ul>
+<li>Mach bands effect</li>
+<li>anti aliasing: e.g. area sampling</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Human Interface</strong></p>
+<ul>
+<li>Learn how to design UI through BAD UI</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Modeling</strong></p>
+<ul>
+<li><strong>Relational Algebra</strong>
+<ul>
+<li>operand: relation</li>
+<li>operator: <strong>selection</strong>, <strong>projection</strong>,<br />
+<strong>join</strong>, division,<br />
+union, intersection, difference, cartesian product</li>
+</ul>
+</li>
+<li><strong>SQL</strong>
+<ul>
+<li>aggregate functions: <code>count, sum, avg, max, min</code><br />
+e.g. <code>count(*)</code>, <code>sum(&lt;hoge&gt;)</code></li>
+<li><code>group by &lt;hoge&gt;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Network Engineering</strong></p>
+<ul>
+<li><em>Protocol pipelining</em>
+<ul>
+<li><strong>GBN (Go Back N)</strong><br />
+cumulative ACK<br />
+manages one timer to deal with timeout (packet loss)<br />
+much faster than Stop and wait protocol<br />
+one packet error make many resending<br />
+-&gt; in this case, not efficient</li>
+<li><strong>Selective Repeat</strong><br />
+manages timers for every packet to deal with timeout (packet loss)<br />
+much faster than Stop and wait protocol</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a class="header" href="#homework" id="homework">homework</a></h3>
+<ul>
+<li><strong>Data Modeling</strong>
+<ul>
+<li>create a tiny relational database</li>
+<li>Today, modeled RDB from the Entity Relationship Diagram &amp; began to write the report</li>
+</ul>
+</li>
+</ul>
+<h2><a class="header" href="#exercise" id="exercise">Exercise</a></h2>
+<ul>
+<li>no contents</li>
+</ul>
+<h2><a class="header" href="#reading-papers-articles-books" id="reading-papers-articles-books">Reading papers, articles, books</a></h2>
+<ul>
+<li>read The Rust Programming Language
+<ul>
+<li>Next : <a href="https://doc.rust-jp.rs/book-ja/ch09-03-to-panic-or-not-to-panic.html">9.3</a></li>
+</ul>
+</li>
+</ul>
+<h2><a class="header" href="#else" id="else">Else</a></h2>
+<ul>
+<li>no contents</li>
+</ul>
+<h2><a class="header" href="#memo" id="memo">MEMO</a></h2>
+<ul>
+<li>no contents</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../2021/May/12th.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../2021/May/14th.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../2021/May/12th.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../2021/May/14th.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

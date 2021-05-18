@@ -30,6 +30,10 @@ a > .hljs {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--bg);
+    background-image: url(../../theme/img_folder/back_painting_upper_transparent.png);  /* add painting */
+    background-size: cover;  /* add painting */
+    background-attachment: fixed;  /* add painting */
+    background-repeat: repeat-x;  /* add painting */
     border-bottom-color: var(--bg);
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -93,7 +97,7 @@ a > .hljs {
 .menu-title {
     display: inline-block;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 2.4rem;
     line-height: var(--menu-bar-height);
     text-align: center;
     margin: 0;
@@ -322,6 +326,10 @@ ul#searchresults span.teaser em {
     overscroll-behavior-y: contain;
     background-color: var(--sidebar-bg);
     color: var(--sidebar-fg);
+    background-image: url(../../theme/img_folder/back_paint_transparent.png);  /* add painting */
+    background-size: cover;
+    background-attachment: fixed;  /* add painting */
+    background-repeat: repeat-y;  /* add painting */
 }
 .sidebar-resizing {
     -moz-user-select: none;

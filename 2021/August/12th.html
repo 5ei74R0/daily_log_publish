@@ -183,11 +183,14 @@
 <li>upgrade cmake on my machine
 <ul>
 <li>download from <a href="https://cmake.org/download/">here</a></li>
+<li>see also <a href="https://qiita.com/T_keigo_wwk/items/75bccfcc9b7746fd2f00">cmakeでDownload failed: “Unsupported protocol”でエラーが起こった時の対処方法</a></li>
+<li>anyway, I did following approach..</li>
 </ul>
-<pre><code>$ wget https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1.tar.gz
+<pre><code class="language-bash">$ sudo apt install openssl libssl-dev
+$ wget https://github.com/Kitware/CMake/releases/download/v3.21.1/cmake-3.21.1.tar.gz
 $ tar zxvf cmake-3.21.1.tar.gz
 $ cd cmake-3.21.1/
-$ cmake . -DCMAKE_USE_OPENSSL=OFF
+$ cmake .
 $ make
 $ sudo make install
 </code></pre>
